@@ -1,0 +1,38 @@
+/* App-specific styles */
+
+.App {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Ensure smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Height of fixed header */
+}
+
+/* Better text rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Prevent layout shift on page load */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Focus visible for accessibility */
+*:focus-visible {
+  outline: 2px solid #f59e0b;
+  outline-offset: 2px;
+}
+
+/* Selection color */
+::selection {
+  background-color: #f59e0b;
+  color: #1f2937;
+}
