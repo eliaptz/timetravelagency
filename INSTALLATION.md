@@ -60,9 +60,9 @@ Ouvrez http://localhost:3000
 ### 1️⃣ Ajouter vos Images (IMPORTANT)
 
 Placez 3 images dans `public/images/` :
-- `paris-1889.jpg`
-- `cretace.jpg`
-- `florence-1504.jpg`
+- `paris-1889.png`
+- `cretace.png`
+- `florence-1504.png`
 
 **Sans images, les cartes afficheront des gradients de couleur.**
 
@@ -275,7 +275,7 @@ npm run dev
 
 **Les images ne s'affichent pas** :
 - Vérifiez `public/images/`
-- Noms exacts : paris-1889.jpg, cretace.jpg, florence-1504.jpg
+- Noms exacts : paris-1889.png, cretace.png, florence-1504.png
 - Redémarrez le serveur
 
 **Le chatbot ne répond pas** :

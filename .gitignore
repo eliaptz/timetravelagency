@@ -29,7 +29,4 @@ dist-ssr
 *.sw?
 
 # Images (vous ajouterez vos propres images)
-public/images/*.jpg
-public/images/*.png
-public/images/*.webp
-!public/images/.gitkeep
+

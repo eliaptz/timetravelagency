@@ -24,9 +24,9 @@ timetravel-agency/
 ├── 🗂️ public/                       # Fichiers statiques publics
 │   └── images/                      # Images des destinations
 │       ├── .gitkeep                 # Placeholder pour Git
-│       ├── paris-1889.jpg           # ⚠️ À ajouter
-│       ├── cretace.jpg              # ⚠️ À ajouter
-│       └── florence-1504.jpg        # ⚠️ À ajouter
+│       ├── paris-1889.png           # ⚠️ À ajouter
+│       ├── cretace.png              # ⚠️ À ajouter
+│       └── florence-1504.png        # ⚠️ À ajouter
 │
 ├── 🗂️ scripts/                      # Scripts utilitaires
 │   └── helper.sh                    # Script d'aide interactif

@@ -43,9 +43,9 @@ cp .env.example .env
 ### 4. Ajouter vos images
 
 Placez vos images dans `public/images/` :
-- `paris-1889.jpg`
-- `cretace.jpg`
-- `florence-1504.jpg`
+- `paris-1889.png`
+- `cretace.png`
+- `florence-1504.png`
 
 ### 5. Lancer l'application
 

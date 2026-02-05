@@ -18,7 +18,7 @@ const destinationsData = [
     ],
     price: '2,499€',
     duration: '7 jours',
-    image: '/images/paris-1889.jpg', // Placeholder - vous remplacerez
+    image: '/images/paris-1889.png', // Placeholder - vous remplacerez
     color: 'from-rose-500 to-pink-600'
   },
   {
@@ -35,7 +35,7 @@ const destinationsData = [
     ],
     price: '4,999€',
     duration: '5 jours',
-    image: '/images/cretace.jpg', // Placeholder - vous remplacerez
+    image: '/images/cretace.png', // Placeholder - vous remplacerez
     color: 'from-green-500 to-emerald-600'
   },
   {
@@ -52,7 +52,7 @@ const destinationsData = [
     ],
     price: '3,499€',
     duration: '6 jours',
-    image: '/images/florence-1504.jpg', // Placeholder - vous remplacerez
+    image: '/images/florence-1504.png', // Placeholder - vous remplacerez
     color: 'from-amber-500 to-orange-600'
   }
 ];

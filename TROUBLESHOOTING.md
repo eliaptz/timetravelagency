@@ -221,20 +221,20 @@ Les cartes de destinations sont vides ou affichent un gradient.
 1. **Vérifier le chemin des images**
    ```bash
    ls public/images/
-   # Doit lister : paris-1889.jpg, cretace.jpg, florence-1504.jpg
+   # Doit lister : paris-1889.png, cretace.png, florence-1504.png
    ```
 
 2. **Vérifier les noms de fichiers**
    Les noms doivent correspondre EXACTEMENT :
    ```javascript
    // Dans Destinations.jsx
-   image: '/images/paris-1889.jpg'  // Sensible à la casse !
+   image: '/images/paris-1889.png'  // Sensible à la casse !
    ```
 
 3. **Vérifier les extensions**
    ```bash
    # Si vos images sont .png
-   mv paris-1889.png paris-1889.jpg
+   mv paris-1889.png paris-1889.png
    # Ou changez dans le code
    ```
 
@@ -259,15 +259,15 @@ Les cartes de destinations sont vides ou affichent un gradient.
    brew install webp  # macOS
    
    # Convertir
-   cwebp -q 80 paris-1889.jpg -o paris-1889.webp
+   cwebp -q 80 paris-1889.png -o paris-1889.webp
    ```
 
 3. **Utiliser des images responsives**
    ```javascript
    <img 
-     src="/images/paris-1889.jpg"
+     src="/images/paris-1889.png"
      srcSet="/images/paris-1889-small.jpg 640w,
-             /images/paris-1889.jpg 1920w"
+             /images/paris-1889.png 1920w"
      sizes="(max-width: 640px) 640px, 1920px"
    />
    ```

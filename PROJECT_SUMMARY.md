@@ -140,9 +140,9 @@ cp .env.example .env
 ### 3. Ajouter vos Images (5 minutes)
 
 Placez 3 images dans `public/images/` :
-- `paris-1889.jpg` (Belle Époque, Tour Eiffel)
-- `cretace.jpg` (Dinosaures, paysage préhistorique)
-- `florence-1504.jpg` (Renaissance, art)
+- `paris-1889.png` (Belle Époque, Tour Eiffel)
+- `cretace.png` (Dinosaures, paysage préhistorique)
+- `florence-1504.png` (Renaissance, art)
 
 **Recommandations** :
 - Taille : ~1920x1080px ou 1200x800px
